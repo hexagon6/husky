@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: '🐶 husky',
-  description: 'Git hooks made easy',
+  title: "Husky",
+  description: "Git hooks made easy",
   base: '/husky/',
   themeConfig: {
     outline: [2, 3],
@@ -21,5 +21,5 @@ export default defineConfig({
       { text: 'Troubleshooting', link: '/troubleshooting' },
       { text: 'Migrating from v4', link: '/migrating-from-v4' },
     ],
-  },
+  }
 })
